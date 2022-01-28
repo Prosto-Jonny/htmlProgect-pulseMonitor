@@ -1,0 +1,53 @@
+.caruseil{
+    padding: 81px 0;
+    &__items{
+        position: relative;
+        width: 750px;
+        margin: 0 auto;
+    }
+    .slick-prev, .slick-next{
+        position: absolute;
+        background-color: #fff;
+        border: none;
+        top: 50%;
+        transform: translateY(-50%);
+        left: -66px;
+        img{
+           width: 30px;
+           height: 50px;
+            
+        }
+    }
+    .slick-next{
+        left: auto;
+        right: -66px;
+    }
+
+    .slick-dots{
+        position: absolute;
+        bottom: -70px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        padding: 0;
+        li{
+            display: inline-block;
+            padding: 0 5px;
+            button{
+                padding: 0;
+                font-size: 0;
+                margin: 0;
+                width: 11px;
+                height: 11px;
+                border: 1px solid black;
+                border-radius: 50%;
+                background-color: #fff;
+            }
+        }
+        li.slick-active{
+            button{
+                background-color: black;
+            }
+        }
+    }
+}

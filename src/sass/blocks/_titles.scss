@@ -1,0 +1,13 @@
+.title{
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 30px;
+    color: #0D0D0D;
+    text-align: center;
+    &_left{
+        color:#fff;
+        font-size: 36px;
+        margin: 0;
+        text-align: left;
+    }
+}

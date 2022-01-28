@@ -1,0 +1,347 @@
+@media (max-width: 1050px){
+    .container{
+        max-width: 870px;
+    }
+}
+
+@media (max-width: 929px){
+    .container {
+        max-width: 750px;
+    }
+    .button {
+        width: 130px;
+        height: 28px;
+        font-size: 10px;
+    }
+    .button_main {
+        width: 213px;
+        height: 42px;
+        font-size: 13px;
+    }
+    .button_submit{
+        width: 100%;
+        height: 50px;
+        font-size: 13px;
+    }
+    .header__logo {
+        width: 180px;
+    }
+    .header__phone {
+        font-size: 15px;
+    }
+    .button_main {
+        width: 303px;
+        height: 54px;
+        margin-top: 65px;
+        font-size: 16px;
+    }
+    .promo{
+        padding-bottom: 56px;
+        min-height: 618px;
+        &__header {
+            font-size: 35px;
+        }
+        &__subheader {
+            font-size: 20px;
+        }
+        &__icons{
+            width: 370px;
+        }
+        &__icon {
+            text-align: center;
+            font-weight: 500;
+            font-size: 12px;
+        }
+        &__link {
+            font-size: 14px;
+        }
+    }
+
+    .advantages__item {
+        width: 218px;
+    }
+    .br__none{
+        display: none;
+    }
+
+    .caruseil{
+        &__items{
+            width: 650px;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media (max-width: 779px){
+    .container {
+        max-width: 640px;
+    }
+
+    .title_left{
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .button_submit{
+        width: 100%;
+        height: 50px;
+        font-size: 17px;
+    }
+
+    .promo{
+        padding-top: 5px;
+        min-height: 550px;
+        &__header {
+            font-size: 30px;
+        }
+        &__subheader {
+            font-size: 15px;
+        }
+        &__icons {
+            width: 325px;
+        }
+        &__icon {
+            width: 90px;
+        }
+        &__icon img {
+            width: 40%;
+        }
+    }
+    .advantages{
+        &__tittle {
+            font-size: 26px;
+        }
+        &__item {
+            width: 180px;
+        }
+        &__subtitle {
+            font-size: 15px;
+        }
+        &__text {
+            font-size: 12px;
+        }
+    }
+
+    .caruseil{
+        &__items{
+            width: 550px;
+        }
+    }
+
+    .consultation{
+        padding: 50px 0 50px 0;
+        &__subtitle{
+            text-align: center;
+            margin: 15px auto;
+        }
+        .feed-form{
+            margin: 0 auto;
+        }
+    }
+}
+
+@media (max-width: 669px){
+    .container {
+        max-width: 515px;
+    }
+    .title_left{
+        font-size: 25px;
+    }
+    .button {
+        width: 90px;
+        height: 20px;
+        font-size: 8px;
+    }
+    .button_main{
+        width: 123px;
+    }
+    .button_submit{
+        width: 300px;
+        height: 50px;
+        font-size: 17px;
+    }
+
+    .header{
+        &__logo {
+            width: 120px;
+        }
+        &__oficial {
+            font-size: 10px;
+        }
+        &__oficial span {
+            font-size: 15px;
+        }
+        &__phone {
+            font-size: 12px;
+        }
+    }
+    .promo {
+        padding-top: 10px;
+        min-height: 414px;
+        &__link {
+            font-size: 10px;
+        }
+        &__wrapper {
+            margin-top: 60px;
+        }
+        &__icons {
+            width: 425px;
+            margin-top: 29px;
+        }
+        &__icons {
+            width: 320px;
+        }
+        &__header {
+            font-size: 25px;
+        }
+        &__subheader {
+            font-size: 12px;
+            margin-top: 8px;
+        }
+        &__icons {
+            width: 300px;
+        }
+        &__icon img {
+            width: 35%;
+        }
+    }
+    .advantages{
+        &__tittle {
+            font-size: 23px;
+        }
+        &__item img {
+            width: 33%;
+        }
+        &__item {
+            width: 160px;
+        }
+        &__subtitle {
+            font-size: 14px;
+        }
+        &__text {
+            font-size: 11px;
+        }
+    }
+
+    .consultation{
+        min-height: 548px;
+        &__subtitle{
+            font-size: 17px;
+        }
+    }
+
+    .caruseil{
+        &__items{
+            width: 450px;
+        }
+    }
+
+}
+
+@media (max-width: 534px){
+    .container {
+        max-width: 435px;
+    }
+    .promo{
+        padding-bottom: 0;
+        &__header {
+            font-size: 20px;
+        }
+        &__subheader {
+            font-size: 10px;
+        }
+        &__icons {
+            width: 235px;
+        }
+        &__icon img {
+            width: 27%;
+        }
+        &__icon {
+            width: 125px;
+            font-size: 10px;
+        }
+        &__icon img {
+            width: 27%;
+        }
+    }
+    .advantages{
+        &__items {
+            justify-content: center;
+            margin-top: 15px;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__item {
+            width: 252px;
+            margin-top: 30px;
+        }
+        &__subtitle {
+            font-size: 20px;
+        }
+        &__text {
+            font-size: 15px;
+        }
+        &__item img {
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+    }
+
+    .caruseil{
+        &__items{
+            width: 350px;
+        }
+    }
+}
+
+@media (max-width: 450px){
+    .button {
+        width: 120px;
+        height: 31px;
+        font-size: 10px;
+    }
+    .button_main{
+        width: 150px;
+    }
+    .button_submit{
+        width: 100%;
+        height: 50px;
+        font-size: 15px;
+    }
+    .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        &__logo {
+            width: 180px;
+            margin-bottom: 15px;
+        }
+        &__oficial {
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+        &__contacts {
+            align-items: center;
+        }
+        &__phone {
+            font-size: 15px;
+            margin-bottom: 10px;
+        }
+    }
+    .promo {
+        padding-bottom: 15px;
+        &__wrapper {
+            align-items: center;
+        }
+    }
+
+    .caruseil{
+        &__items{
+            width: 300px;
+        }
+    }
+}
