@@ -12,6 +12,8 @@
         top: 50%;
         transform: translateY(-50%);
         left: -66px;
+        width: 30px;
+        height: 50px;
         img{
            width: 30px;
            height: 50px;
@@ -46,7 +48,8 @@
         }
         li.slick-active{
             button{
-                background-color: black;
+                background-color: $main-color;
+                border: none;
             }
         }
     }

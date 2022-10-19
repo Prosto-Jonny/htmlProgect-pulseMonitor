@@ -10,4 +10,15 @@
         color: #FFFFFF;
         max-width: 426px;
     }
+
+    //Валидация
+    .error{
+        border: 1px solid red;
+    }
+    label.error{
+        color:#FFFFFF;
+        border: none;
+        text-align: center;
+        margin-bottom: 15px;
+    }
 }

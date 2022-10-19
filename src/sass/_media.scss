@@ -2,6 +2,9 @@
     .container{
         max-width: 870px;
     }
+    .catalog-item{
+        width: 285px;
+    }
 }
 
 @media (max-width: 929px){
@@ -22,6 +25,9 @@
         width: 100%;
         height: 50px;
         font-size: 13px;
+    }
+    .button_mini{
+        width: 100px;
     }
     .header__logo {
         width: 180px;
@@ -70,6 +76,18 @@
             img{
                 width: 100%;
             }
+        }
+    }
+
+    .catalog{
+        &__content{
+            justify-content: space-around;
+        }
+    }
+
+    .reviews-item__content{
+        .descr{
+            font-size: 15px;
         }
     }
 }
@@ -140,27 +158,39 @@
             margin: 0 auto;
         }
     }
+    .catalog__tab{
+        width: 185px;
+    }
 }
 
 @media (max-width: 669px){
     .container {
         max-width: 515px;
     }
-    .title_left{
-        font-size: 25px;
+    .title{
+        font-size: 27px;
+        &_left{
+            font-size: 25px;
+        }
     }
+
     .button {
         width: 90px;
         height: 20px;
         font-size: 8px;
-    }
-    .button_main{
-        width: 123px;
-    }
-    .button_submit{
-        width: 300px;
-        height: 50px;
-        font-size: 17px;
+        &_main{
+            width: 123px;
+        }
+        &_submit{
+            width: 300px;
+            height: 50px;
+            font-size: 17px;
+        }
+        &_mini{
+            width: 115px;
+            height: 38px;
+            font-size: 14px;
+        }
     }
 
     .header{
@@ -238,6 +268,45 @@
         }
     }
 
+    .catalog{
+        &__tab{
+            width: 155px;
+            font-size: 15px;
+        }
+        &__content{
+            display: none;
+        }
+        &__media{
+            &_active{
+                display: block;
+            }
+        }
+        &-item{
+            &__subtitle, &__descr, &__link{
+                font-size: 20px;
+            }
+            &__back{
+                font-size: 20px;
+            }
+            &__content{
+                padding-right: 20px;
+                &_active{
+                    padding-right: 0px;
+                }
+            }
+        }
+        .slick-initialized {
+            .slick-slide {
+                font-size: 17px;
+                color: #555555;
+                font-weight: 300;
+            }
+        }
+    }
+
+    .footer__info{
+        display: none;
+    }
 }
 
 @media (max-width: 534px){
@@ -295,6 +364,38 @@
             width: 350px;
         }
     }
+
+    .catalog{
+        &__tabs{
+            flex-direction: column;
+            align-items: center;
+        }
+        &__tab{
+            width: 250px;
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+    }
+    .reviews{
+        &-item{
+            flex-direction: column;
+            align-items: center;
+            &__content{
+                margin: 20px auto;
+                width: 315px;
+                .name, .experience, .descr{
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .modal{
+        width: 300px;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 @media (max-width: 450px){
@@ -342,6 +443,17 @@
     .caruseil{
         &__items{
             width: 300px;
+        }
+    }
+    .modal{
+        width: 320px;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 360px;
+        &__close{
+            right: 0;
         }
     }
 }

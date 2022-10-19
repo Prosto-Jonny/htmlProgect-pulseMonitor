@@ -1,3 +1,9 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/font';
+@import 'libs/slick';
+@import 'libs/animate.min';
+
+
 *{
 	font-family: 'MuseoModerno', sans-serif;
 }
@@ -9,6 +15,9 @@
 
 
 @import 'base/variables';
+@import 'base/animation';
+
+
 @import 'blocks/promo';
 @import 'blocks/header';
 @import 'blocks/buttons';
@@ -18,5 +27,10 @@
 @import 'blocks/forms';
 @import 'blocks/caruseil';
 @import 'blocks/catalog';
+@import 'blocks/reviews';
+@import 'blocks/footer';
+@import 'blocks/modal';
+@import 'blocks/pageup';
+
 
 @import 'media';
